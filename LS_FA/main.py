@@ -14,4 +14,3 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return "message Welcome to the Ledger System FastAPI project!"
